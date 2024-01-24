@@ -1,0 +1,7 @@
+version: '3'
+services:
+  png-to-ico:
+    build: .
+    volumes:
+      - ./input:/app/input
+      - ./output:/app/output

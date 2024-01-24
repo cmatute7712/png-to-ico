@@ -1,0 +1,48 @@
+# Ignore Python cache files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyc.so
+
+# Ignore Python venv files
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+#ignore past project output
+output/
+
+# Ignore git files
+.git
+.gitignore
+
+# Ignore logs
+*.log
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore all markdown files
+*.md
+
+# Ignore test and documentation directories
+/tests
+/docs
+
+# Ignore IDE specific files
+.vscode
+.idea
+*.swp
+*.swo
+*.swn
+*.swm
+*.bak
+*.bak2
+*.bak3
+*.db
+*.sqlite3
+*.sqlite3-journal
+*.pid.lock
